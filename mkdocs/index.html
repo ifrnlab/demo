@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Tesoura - Demo</title>
+    <title>MkDocs - Demo</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Tesoura";
-        var mkdocs_page_input_path = "tesoura.md";
+        var mkdocs_page_name = "MkDocs";
+        var mkdocs_page_input_path = "mkdocs.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -44,8 +44,10 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Início</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../mkdocs/">MkDocs</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">MkDocs</a>
+    <ul class="current">
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -56,10 +58,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../pedra/">Pedra</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Tesoura</a>
-    <ul class="current">
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../tesoura/">Tesoura</a>
                 </li>
               </ul>
       </div>
@@ -76,7 +76,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Tesoura</li>
+      <li>MkDocs</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -85,12 +85,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="tesoura">Tesoura</h1>
+                <h1 id="mkdocs">MkDocs</h1>
+<ol>
+<li><code>mkdocs new .</code></li>
+<li><code>find</code></li>
+<li><code>ls</code></li>
+<li><code>ls -F1</code></li>
+<li><code>touch ./docs/pedra.md</code></li>
+<li><code>touch ./docs/papel.md</code></li>
+<li><code>touch ./docs/tesoura.md</code></li>
+<li><code>cat ./docs/pedra.md</code></li>
+<li><code>cat ./docs/papel.md</code></li>
+<li><code>cat ./docs/tesoura.md</code></li>
+<li><code>micro ./docs/index.md</code></li>
+<li><code>micro ./docs/pedra.md</code></li>
+<li><code>micro ./docs/papel.md</code></li>
+<li><code>micro ./docs/tesoura.md</code></li>
+<li><code>mkdocs</code></li>
+<li><code>mkdocs | batcat</code></li>
+<li><code>mkdocs gh-deploy</code></li>
+<li><code>ls</code></li>
+<li><code>micro mkdocs.yml</code></li>
+<li><code>mkdocs gh-deploy</code></li>
+<li><code>micro mkdocs.yml</code></li>
+<li><code>mkdocs gh-deploy</code></li>
+<li><code>history</code></li>
+</ol>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../pedra/" class="btn btn-neutral float-left" title="Pedra"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral float-left" title="Início"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../papel/" class="btn btn-neutral float-right" title="Papel">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -113,8 +139,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../pedra/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
     
+    
+      <span><a href="../papel/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
